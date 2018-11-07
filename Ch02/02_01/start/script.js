@@ -1,7 +1,7 @@
 // JavaScript Document
 
 // Define a variable with an integer value
-var myNumber = 5;
+var myNumber = 'hello';
 // assign = takes value on R and assigns it to thing on L 
 //only 'number' type in js. ints floats etc. all handled by 'number'
 
@@ -13,3 +13,4 @@ console.log(typeof myNumber);
 // pass in myNumber to tell it what to do
 // type of tells you what type the variable is. myNumber is a number
 // vars are dynamic can be changed on the fly
+// if we change myNumber to 'hello' type of now correctly tells us its a string
