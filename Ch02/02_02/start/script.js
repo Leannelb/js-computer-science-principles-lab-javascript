@@ -1,8 +1,21 @@
 // JavaScript Document
 
-//using functions for repetitive code segments
-//create a variable
-var myScore = 1000;
-myScore = myScore + 100;
+// Create the game score
+var myScore;
 
-console.log("player score: " + myScore);
+// Setup and change the game score
+init();
+changeScore();
+
+// Function to initialize the game score in the game
+function init()
+{
+    myScore = 1000;
+}
+
+// Function to change the score of the game
+function changeScore()
+{
+    myScore = myScore + 100;
+    console.log("Player score: " + myScore);
+}
