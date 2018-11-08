@@ -1,5 +1,5 @@
 // JavaScript Document
-
+//Customising functions with parameters
 // Create the game score
 var myScore;
 
