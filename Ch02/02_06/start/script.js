@@ -6,3 +6,4 @@ var subtotal = 15.00;
 //using functions as variables
 
 console.log("Subtotal: " + subtotal);
+//if you use math: addition or subtraction, thats an evaluation
