@@ -12,7 +12,7 @@ var outsideValue = 5;
 
 myFunction();
 
-//myOtherFunction();
+myOtherFunction();
 
 function myFunction()
 {
@@ -30,4 +30,5 @@ function myOtherFunction()
     // Output variables to the console
     console.log("From inside: outsideValue = " + outsideValue);
     console.log("From inside: functionValue = " + functionValue);
+    //but functionValue is ONLY defined in myFuction therefore cannot be accessed
 }
