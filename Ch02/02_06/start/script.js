@@ -13,7 +13,7 @@ console.log("Total: " + total);
 
 function calculateTax(taxRate, amountToTax)
 {
-    var tax = subtotal * taxRate;
+    var tax = amountToTax * taxRate;
     console.log("Tax: " + tax);
     return tax;
 }
