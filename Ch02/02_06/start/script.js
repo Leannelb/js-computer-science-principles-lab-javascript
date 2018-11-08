@@ -1,6 +1,7 @@
 // JavaScript Document
 
 var subtotal = 15.00;
+//this is a literal var as the value has been specifically defined
 
 //using functions as variables
 
