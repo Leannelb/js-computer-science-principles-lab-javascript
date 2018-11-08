@@ -3,7 +3,17 @@
 var subtotal = 15.00;
 //this is a literal var as the value has been specifically defined
 
+console.log("Subtotal: " + subtotal);
 //third way is using functions as variables - it NEEDs to return a value though
 
-console.log("Subtotal: " + subtotal);
-//if you use math: addition or subtraction, thats an evaluation
+
+var total = subtotal + calculateTax(0.08);
+
+console.log("Total: " + total);
+
+function calculateTax(taxRate, amountToTax)
+{
+    var tax = subtotal * taxRate;
+    console.log("Tax: " + tax);
+    return tax;
+}
