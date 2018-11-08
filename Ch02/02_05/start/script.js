@@ -6,6 +6,8 @@ var outsideValue = 5;
 // Output variables to the console
 console.log("From outside: outsideValue = " + outsideValue);
 console.log("From outside: functionValue = " + functionValue);
+// gives error: script.js:8 Uncaught ReferenceError: functionValue is not defined
+// at script.js:8 because of the scope of the functionValue
 
 //myFunction();
 
@@ -15,6 +17,7 @@ function myFunction()
 {
     // Create variable insode of a function
     var functionValue = 10;
+    console.log("Hey");
 
     // Output variables to the console
     console.log("From inside: outsideValue = " + outsideValue);
