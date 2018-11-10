@@ -8,3 +8,6 @@ console.log(myArray);
 
 console.log(myMixedArray);
 // script.js:8 (2) [4, "hello, true"]
+
+console.log(myArray[6]);
+//get back undefined
