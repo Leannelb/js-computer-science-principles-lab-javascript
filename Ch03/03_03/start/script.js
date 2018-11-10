@@ -25,6 +25,16 @@ if (myValue < 5)
     console.log("This condition is false");
 }
 
+if (myValue >= 1)
+{
+    console.log("This condition (myValue >= 1) is true");
+
+    if (myValue <= 5)
+    {
+        console.log("This condition (myValue <= 5) is true " );
+    }
+}
+
 // OUTPUT:
 // The variable knowJS is equal to true and has a type of boolean
 // script.js:10 I know javascript
